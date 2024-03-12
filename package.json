@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "EsLint and Prettier default configuration used at Input Studio",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "typescript",
     "config",
