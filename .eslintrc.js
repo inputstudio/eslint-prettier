@@ -1,4 +1,6 @@
-const eslintConfig = {
+const prettierConfig = require('./prettier');
+
+module.exports = {
   "root": true,
   "env": {
     "browser": true,
@@ -13,16 +15,7 @@ const eslintConfig = {
   "rules": {
     "prettier/prettier": [
       "error", 
-      {
-        "singleQuote": true,
-        "tabWidth": 2,
-        "printWidth": 120,
-        "trailingComma": "es5",
-        "plugins": ["prettier-plugin-tailwindcss"]
-      }
+      prettierConfig
     ]
   }
 }
-
-
-module.exports = eslintConfig; 
