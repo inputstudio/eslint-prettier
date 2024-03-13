@@ -1,17 +1,27 @@
 {
-  "name": "@inputstudio/prettier",
+  "name": "@inputstudio/eslint-prettier",
   "version": "1.0.0",
   "description": "EsLint and Prettier default configuration used at Input Studio",
   "main": "index.js",
+  "license": "MIT",
+  "author": "Input Studio <hello@inputstudio.co> (https://inputstudio.co)",
+  "repository": {
+    "type": "git", 
+    "url": "https://github.com/inputstudio/eslint-prettier.git"
+  },
   "keywords": [
     "typescript",
     "config",
     "eslint",
+    "eslint-config",
     "prettier",
+    "prettier-config",
     "formatter"
   ],
-  "author": "Input Studio <hello@inputstudio.co> (https://inputstudio.co)",
-  "license": "MIT",
+  "scripts": {
+    "prettier:check": "prettier --check ."
+  },
+  "prettier": "./prettier.js",
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@typescript-eslint/parser": "^6.21.0",
