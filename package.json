@@ -6,8 +6,8 @@
   "license": "MIT",
   "author": "Input Studio <hello@inputstudio.co> (https://inputstudio.co)",
   "repository": {
-    "type": "git", 
-    "url": "https://github.com/inputstudio/eslint-prettier.git"
+    "type": "git",
+    "url": "git+https://github.com/inputstudio/eslint-prettier.git"
   },
   "keywords": [
     "typescript",
