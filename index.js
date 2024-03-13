@@ -1,3 +1,4 @@
-const eslint = require('./.eslintrc'); 
+/* eslint @typescript-eslint/no-var-requires: "off" */
+const eslint = require('./.eslintrc');
 
-module.exports = eslint
+module.exports = eslint;

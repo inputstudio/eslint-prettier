@@ -1,21 +1,14 @@
-const prettierConfig = require('./prettier');
-
 module.exports = {
-  "root": true,
-  "env": {
-    "browser": true,
-    "node": true
+  root: true,
+  env: {
+    browser: true,
+    node: true,
   },
-  "parser": "vue-eslint-parser",
-  "parserOptions": {
-    "parser": "@typescript-eslint/parser"
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    parser: '@typescript-eslint/parser',
   },
-  "extends": ["@nuxtjs/eslint-config-typescript", "plugin:prettier/recommended"],
-  "plugins": [],
-  "rules": {
-    "prettier/prettier": [
-      "error", 
-      prettierConfig
-    ]
-  }
-}
+  extends: ['@nuxtjs/eslint-config-typescript', 'plugin:prettier/recommended'],
+  plugins: [],
+  rules: {},
+};
