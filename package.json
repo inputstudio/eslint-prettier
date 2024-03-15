@@ -1,6 +1,6 @@
 {
   "name": "@inputstudio/eslint-prettier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EsLint and Prettier default configuration used at Input Studio",
   "main": "index.js",
   "license": "MIT",
