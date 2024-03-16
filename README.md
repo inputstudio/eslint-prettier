@@ -10,11 +10,11 @@ Install the package with your favorite package manager:
 
 ```bash
 # npm
-npm install @inputstudio/eslint-prettier
+npm i -D @inputstudio/eslint-prettier
 # yarn
-yarn add @inputstudio/eslint-prettier
+yarn add -D @inputstudio/eslint-prettier
 # pnpm
-pnpm add @inputstudio/eslint-prettier
+pnpm add -D @inputstudio/eslint-prettier
 ```
 
 Install the dependencies used by the package:
